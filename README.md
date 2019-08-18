@@ -36,6 +36,9 @@ Additionally Project contains a simulation of a Processor of a Assembly code.
 	
 	An attempt of running another way will cause errors.
 	
+	
+	If you wish to test a compiler, you can use input specified at "src/tests" package.
+	
 ----------------------------------------------------------------------------------------------------------------------------------------
 	
 	After creating a file with machine code you can run it in register machine.
