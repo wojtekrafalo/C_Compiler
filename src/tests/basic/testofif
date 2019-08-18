@@ -1,0 +1,19 @@
+DECLARE
+a;
+b;
+c;
+
+IN
+
+a := 2;
+
+
+IF a<=1 THEN
+	a:=1;
+ELSE
+	a:=3;
+ENDIF
+
+WRITE a;
+
+END

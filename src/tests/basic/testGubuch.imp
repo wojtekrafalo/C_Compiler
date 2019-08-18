@@ -1,0 +1,30 @@
+DECLARE
+b;
+IN
+	IF 1<3 THEN
+		WRITE 1;
+	ELSE
+		WRITE 2;
+	ENDIF
+	
+	b:=3*12;
+	
+	IF b>10 THEN
+		WRITE b;
+	ENDIF
+	
+	WHILE b<=36 DO
+		WRITE 72;
+		b:=300;
+	ENDWHILE
+	
+	WHILE b>1 DO
+		WRITE b;
+		b:=0;
+		WRITE b;
+    ENDWHILE
+	
+	FOR i FROM 1 TO 1 DO
+		WRITE i;
+	ENDFOR
+END

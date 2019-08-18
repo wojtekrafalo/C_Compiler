@@ -1,0 +1,11 @@
+DECLARE
+    j; k;
+IN
+	IF 1 = 0 THEN
+		j := k;
+	ELSE
+		j := 1;
+	ENDIF
+	
+	WRITE j;
+END

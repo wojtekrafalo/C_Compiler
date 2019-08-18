@@ -1,0 +1,1 @@
+enum Instructions : long long { GET, PUT, LOAD, STORE, COPY, ADD, SUB, HALF, INC, DEC, JUMP, JZERO, JODD, HALT };

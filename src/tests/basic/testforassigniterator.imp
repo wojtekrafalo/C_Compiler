@@ -1,0 +1,13 @@
+DECLARE
+b;
+IN
+	FOR i FROM 1 TO 2 DO
+		WRITE i;
+		i:=5;
+	ENDFOR
+	
+	FOR j FROM 1 TO 2 DO
+		WRITE j;
+		READ j;
+	ENDFOR
+END
