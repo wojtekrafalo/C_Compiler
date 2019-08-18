@@ -2,12 +2,12 @@
 Project of the Compiler of a simple declarative language.
 Additionally Project contains a simulation of a Processor of a Assembly code.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
 	Author:
 		Wojciech Karol Rafałowski
 		
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
 	Description:
 	
@@ -33,10 +33,11 @@ Additionally Project contains a simulation of a Processor of a Assembly code.
 	
 	An attempt of running another way will cause errors.
 	
+----------------------------------------------------------------------------------------------------------------------------------------
 	
-  After creating a file with machine code you can run it in register machine.
-  It is a simulator of that, how processor works. This machine runs Assembly-like code.
-  To run it, go to the src/register_machine catalog. Run "make" command and then: "register-machine [input]".
-  It will execute code specified at [input] file.
+	After creating a file with machine code you can run it in register machine.
+	It is a simulator of that, how processor works. This machine runs Assembly-like code.
+	To run it, go to the src/register_machine catalog. Run "make" command and then: "register-machine [input]".
+	It will execute code specified at [input] file.
   
   
