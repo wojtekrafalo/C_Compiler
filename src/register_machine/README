@@ -23,7 +23,7 @@ Project of the machine of Assembly-like code.
 		-	README			- this document.
 		-	Instruction.hh		- file with tokens to analyze by grammar.
 		-	mr.cc           	- file with methods to run a machine.
-		-	mr-cln.cc           	- file with a machine specified for larger intigers.
+		-	mr-cln.cc           	- file with a machine specified for larger intigers. To use it you must change Makefile.
 		-	main.cc           	- main file. Simply runs a machine with specific input.
 		-	Makefile
 	
