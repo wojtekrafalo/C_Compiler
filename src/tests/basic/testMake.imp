@@ -1,7 +1,0 @@
-DECLARE
-    k;
-IN
-	k:=20;
-	WRITE k;
-END
-
