@@ -1,0 +1,27 @@
+DECLARE
+
+g;
+h;
+i;
+j;
+k;
+
+
+IN
+
+g := 5/1;
+WRITE g;
+
+h := 3/6;
+WRITE h;
+
+i := 9/3;
+WRITE i;
+
+j := 12/4;
+WRITE j;
+
+k := 8/3;
+WRITE k;
+
+END

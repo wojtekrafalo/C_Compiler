@@ -1,0 +1,141 @@
+DECLARE
+a;
+b;
+c;
+d;
+e;
+f;
+g;
+h;
+i;
+j;
+k;
+l;
+m;
+n;
+o;
+p;
+q;
+r;
+s;
+t;
+u;
+w;
+v;
+x;
+y;
+z;
+
+ab;
+ac;
+ad;
+ae;
+af;
+ag;
+ah;
+
+IN
+
+a := 10%7;		[3]
+WRITE a;
+
+b := 2*6;		[12]
+WRITE b;
+
+READ c;
+WRITE c;
+
+d := 0%6;		[0]
+WRITE d;
+
+e := 3-9;		[0]
+WRITE e;
+
+f := 3+5;		[8]
+WRITE f;
+
+g := 2/3;		[0]
+WRITE g;
+
+i := 0+6;		[6]
+WRITE i;
+
+k := 2/0;		[0]
+WRITE k;
+
+m := 0*2;		[0]
+WRITE m;
+
+o := 1+0;		[1]
+WRITE o;
+
+r := 6-0;		[6]
+WRITE r;
+
+h := 5%2;		[1]
+WRITE h;
+
+j := 6%0;		[0]
+WRITE j;
+
+l := 6*0;		[0]
+WRITE l;
+
+n := 0/3;		[0]
+WRITE n;
+
+p := 0-9;		[0]
+WRITE p;
+
+q := 9%3;		[0]
+WRITE q;
+
+r := 6-3;		[3]
+WRITE r;
+
+s := 1*4;		[4]
+WRITE s;
+
+t := 12*8;		[96]
+WRITE t;
+
+u := 83%2;		[1]
+WRITE u;
+
+w := 17/3;		[5]
+WRITE w;
+
+v := 19%5;		[4]
+WRITE v;
+
+x := 3*8;		[24]
+WRITE x;
+
+y := 0/0;		[0]
+WRITE y;
+
+z := 0%0;		[0]
+WRITE z;
+
+ab := 5+13;		[18]
+WRITE ab;
+
+ac := 6-28;		[0]
+WRITE ac;
+
+ad := 1/8;		[0]
+WRITE ad;
+
+ae := 9%5;		[4]
+WRITE ae;
+
+af := 17/16;	[1]
+WRITE af;
+
+ag := 3/5;		[0]
+WRITE ag;
+
+ah := 3*6;		[18]
+WRITE ah;
+
+END

@@ -1,0 +1,50 @@
+DECLARE
+a;
+b;
+c;
+d;
+e;
+f;
+g;
+h;
+i;
+j;
+k;
+
+
+IN
+
+a := 3%2;
+WRITE a;
+
+b := 4%0;
+WRITE b;
+
+c := 0%2;
+WRITE c;
+
+d := 7%7;
+WRITE d;
+
+e := 1%4;
+WRITE e;
+
+f := 3%8;
+WRITE f;
+
+g := 5%1;
+WRITE g;
+
+h := 3%6;
+WRITE h;
+
+i := 9%3;
+WRITE i;
+
+j := 12%4;
+WRITE j;
+
+k := 8%3;
+WRITE k;
+
+END
