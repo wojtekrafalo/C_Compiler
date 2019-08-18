@@ -18,19 +18,21 @@ Project of the machine of Assembly-like code.
 	
 	
 	Main project is in the src/register_machine directory and contains:
-		-	parser.y		    -	parser of a grammar. Uses Bison library. Creates a grammar based on input file.
-		-	lexer.l			    -	lexer analyzer of a compiler. Uses Flex library.
-		-	README			    -	this document.
-		-	Instruction.hh	-	file with tokens to analyze by grammar.
-    - mr.cc           - file with methods to run a machine.
+		-	parser.y		- parser of a grammar. Uses Bison library. Creates a grammar based on input file.
+		-	lexer.l			- lexer analyzer of a compiler. Uses Flex library.
+		-	README			- this document.
+		-	Instruction.hh		- file with tokens to analyze by grammar.
+		-	mr.cc           	- file with methods to run a machine.
+		-	mr-cln.cc           	- file with a machine specified for larger intigers.
+		-	main.cc           	- main file. Simply runs a machine with specific input.
 		-	Makefile
 	
 	
 	To compile the project you should run command: "make". 
-  After that commands from "Makefile" will start. Files like "parser.cc", "parser.hh", "compiler" etc. would be created.
+	After that commands from "Makefile" will start. Files like "parser.cc", "parser.hh", "compiler" etc. would be created.
 	To run executable file "compiler", you should use a "./compiler [input] [output]" command, where:
-		[input] 	-	path to the input file;
-		[output] 	-	path to the file of output of machine code to register machine.
+		-	[input] 		- path to the input file;
+		-	[output] 		- path to the file of output of machine code to register machine.
 	
 	An attempt of running another way will cause errors.
   
